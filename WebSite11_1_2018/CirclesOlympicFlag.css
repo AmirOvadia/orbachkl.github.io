@@ -1,0 +1,72 @@
+﻿
+body
+{
+    background-color: coral;
+    border-style: solid;
+    border-color: green;
+    height: 400px;
+}
+
+.circlesContainer
+{
+    background-color: aquamarine;
+    width: 100%;
+    height: inherit;
+    text-align: center;
+}
+
+.upperCircles
+{
+    background-color: purple;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+}
+
+.bottomCircles
+{
+    background-color: purple;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+}
+
+.circles
+{
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+    border-radius:50%;/
+}
+
+.circle1
+{
+    border-color: blue;
+    border-style: solid;
+}
+
+.circle2
+{
+    border-color: blue;
+    border-style: solid;
+}
+
+.circle3
+{
+    border-color: blue;
+    border-style: solid;
+}
+
+.circle4
+{
+    border-color: blue;
+    border-style: solid;
+}
+
+.circle5
+{
+    border-color: blue;
+    border-style: solid;
+}

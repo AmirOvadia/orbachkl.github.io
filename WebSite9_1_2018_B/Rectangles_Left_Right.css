@@ -1,0 +1,27 @@
+﻿.rectangles
+{
+    margin-left:20px;
+    width:200px;
+    height:200px;
+    background-color:blue;
+
+}
+#rectangle1
+{
+    float:right;
+
+
+}
+#rectangle2
+{
+    float:left;
+
+
+}
+#rectangle3
+{
+    float:left;
+
+
+}
+
