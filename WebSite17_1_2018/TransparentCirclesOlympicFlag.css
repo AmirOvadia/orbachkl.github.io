@@ -1,0 +1,72 @@
+﻿
+body
+{
+    background-color: transparent;
+   
+    height: 400px;
+}
+
+.circlesContainer
+{
+    background-color: transparent;
+    width: 100%;
+    height: inherit;
+    text-align: center;
+}
+
+.upperCircles
+{
+    background-color: transparent;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+}
+
+.bottomCircles
+{
+    background-color: transparent;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+}
+
+.circles
+{
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    display: inline-block;
+    border-radius:75%;
+}
+
+.circle1
+{
+   
+   border: 10px solid blue;
+}
+
+.circle2
+{
+    
+    border: 10px solid black;
+}
+
+.circle3
+{
+    
+    border: 10px solid red;
+}
+
+.circle4
+{
+    /*border-color: yellow;
+    border-style: solid;*/
+    border: 10px solid yellow;
+}
+
+.circle5
+{
+    
+    border: 10px solid green;
+}
