@@ -1,0 +1,97 @@
+﻿
+body
+{
+    background-color: transparent;
+    
+}
+
+.circlesContainer
+{
+    background-color: transparent;
+    width: 100%;
+   
+    text-align: center;
+   
+}
+
+.upperCircles
+{
+    background-color: transparent;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+}
+
+.bottomCircles
+{
+    background-color: transparent;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+}
+
+.circles
+{
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 75%;
+    border: 10px solid;
+}
+
+.buttons
+{
+    height:100px;
+    width:100%;
+   text-align:center;
+   position:relative;
+   top:50px;
+}
+.blueBorder
+{
+    border-color:blue;
+}
+.greenBorder
+{
+    border-color:green;
+}
+.yellowBorder
+{
+    border-color:yellow;
+
+}
+.blackBorder
+{
+    border-color:black;
+}
+.redBorder
+{
+    border-color:red;
+}
+
+.button
+{
+    height:75px;
+    width:200px;
+
+      display: inline-block;
+     line-height:100%;
+    font-size:xx-large;
+    font-style:oblique;
+    font-weight:bold;
+    background-color:aquamarine;
+}
+.leftBtn
+{
+   
+    border:3px solid black;
+    
+}
+.rightBtn
+{
+    
+    border:3px solid black;
+
+}
