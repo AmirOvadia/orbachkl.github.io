@@ -1,0 +1,115 @@
+﻿
+body
+{
+    background-color: transparent;
+    height: 400px;
+}
+
+.circlesContainer
+{
+    background-color: transparent;
+    width: 100%;
+    height: inherit;
+    text-align: center;
+}
+
+.upperCircles
+{
+    background-color: transparent;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+}
+
+.bottomCircles
+{
+    background-color: transparent;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+}
+
+.circles
+{
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 75%;
+      line-height:200px;
+    font-size:xx-large;
+    font-style:oblique;
+    font-weight:bold;
+}
+
+.circle1
+{
+    border: 10px solid blue;
+    color:blue;
+}
+
+.circle2
+{
+    border: 10px solid black;
+    color:black;
+}
+
+.circle3
+{
+    border: 10px solid red;
+    color:red;
+}
+
+.circle4
+{
+    border: 10px solid yellow;
+    color:yellow;
+}
+
+.circle5
+{
+    border: 10px solid green;
+    color:green;
+}
+
+.dynamic
+{
+    -webkit-transition: background-color 5s;
+    -moz-transition: background-color 5s;
+    -o-transition: background-color 5s;
+    -ms-transition: background-color 5s;
+}
+
+
+
+.blue
+{
+    background-color: blue;
+}
+
+.red
+{
+    background-color: red;
+}
+
+.green
+{
+    background-color: green;
+}
+
+.yellow
+{
+    background-color: yellow;
+}
+
+.black
+{
+    background-color: black;
+}
+
+.whiteTextColor
+{
+    color:white;
+}
+
