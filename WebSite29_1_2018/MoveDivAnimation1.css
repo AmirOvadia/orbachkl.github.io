@@ -1,0 +1,26 @@
+﻿
+.dynamic
+{
+   width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    position: relative;
+ 
+    
+}
+.btnMove
+{
+    line-height:100%;
+    font-size:xx-large;
+    font-style:oblique;
+    font-weight:bold;
+    background-color:aquamarine;
+    border:3px solid black;
+}
+.movement
+{
+     font-weight:bold;
+    background-color:aquamarine;
+    display:inline-block;
+
+}
