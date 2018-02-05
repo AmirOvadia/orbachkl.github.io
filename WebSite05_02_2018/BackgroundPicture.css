@@ -1,0 +1,30 @@
+﻿body {
+    background-color:black;
+    color:white;
+    background-image:Url('space.jpg');
+}
+h1
+{
+    text-align:center;
+    font-style:italic;
+    font-weight:bold;
+    text-decoration:underline;
+    font-family:'Times New Roman';
+    font-size:30px;
+    color:aqua;
+}
+h2
+{
+    font:normal 25px, verdana;
+    color:aquamarine;
+    
+
+}
+p
+{
+    
+    text-indent:20px;
+    font-size:2em;
+
+
+}
