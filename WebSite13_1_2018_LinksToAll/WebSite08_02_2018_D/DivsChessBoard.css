@@ -1,0 +1,63 @@
+﻿.main
+{
+    width:800px;
+    height:100%;
+    margin:0 auto;
+    border:100px solid brown;
+    overflow:hidden;
+}
+
+/*.main:after
+{
+content:".";
+display:block;
+clear:both;
+visibility:hidden;
+}*/
+
+
+
+
+.first
+{
+    width:100px;
+    height:100px;
+    background-color:black;
+    float:left;
+}
+.second
+{
+    width:100px;
+    height:100px;
+    background-color:white;
+    float:left;
+}
+.third
+{
+    background-color:black;
+    width:100px;
+    height:100px;
+    float:left;
+    clear:both;
+}
+.four
+{
+      width:150px;
+    height:150px;
+    background-color:white;
+    float:left;
+}
+.five
+{
+    width:150px;
+    height:150px;
+    background-color:black;
+    float:left;
+}
+.six
+{
+     background-color:white;
+    width:150px;
+    height:150px;
+    float:right;
+}

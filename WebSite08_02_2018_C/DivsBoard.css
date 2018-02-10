@@ -1,0 +1,48 @@
+﻿.main
+{
+    width:450px;
+    margin:0 auto;
+}
+
+.first
+{
+    width:150px;
+    height:150px;
+    background-color:black;
+    float:left;
+}
+.second
+{
+    width:150px;
+    height:150px;
+    background-color:white;
+    float:left;
+}
+.third
+{
+    background-color:black;
+    width:150px;
+    height:150px;
+    float:right;
+}
+.four
+{
+      width:150px;
+    height:150px;
+    background-color:white;
+    float:left;
+}
+.five
+{
+    width:150px;
+    height:150px;
+    background-color:black;
+    float:left;
+}
+.six
+{
+     background-color:white;
+    width:150px;
+    height:150px;
+    float:right;
+}

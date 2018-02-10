@@ -1,0 +1,27 @@
+﻿.main
+{
+    width:800px;
+    margin:0 auto;
+}
+.first
+{
+    width:30%;
+    height:300px;
+    background-color:fuchsia;
+    float:left;
+}
+.second
+{
+    width:40%;
+    height:300px;
+    background-color:gray;
+    float:left;
+}
+.third
+{
+    width:30%;
+    height:300px;
+    background-color:blue;
+
+  float:right;
+}
