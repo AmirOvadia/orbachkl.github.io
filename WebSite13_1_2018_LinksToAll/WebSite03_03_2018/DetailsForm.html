@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="DetailsForm.js"></script>
+</head>
+<body  onload="InsertAgeRange()">
+    <form id="frm" method="get" action="http://www.google.com">
+        Name:<input type="text" id="name" /><br />
+        Age: <select id="age">
+            
+        </select><br />
+        City<select id="city">
+            <option>Select</option>
+            <option>Tel Aviv</option>
+            <option>Rishon Letzion</option>
+            <option>Haifa</option>
+            <option>Ashkelon</option>
+        </select><br />
+        Address:<input type="text" id="address" /><br />
+        Gender:<br /><input type="radio" name="gender" value="M" />Male<br />
+        <input type="radio" name="gender" value="F" />Female<br />
+        Hobbies:<br />
+        <input type="checkbox" name="sport" value="checked" />Sport<br />
+        <input type="checkbox" name="reading" value="checked" />Reading<br />
+        <input type="checkbox" name="tv" value="checked" />T.V<br />
+        <input type="checkbox" name="internet" value="checked" />Internet<br />
+        <input type="button" id="btnValidation" onclick="Validation()"/>
+        <br/>
+        <label id="lblLogin"></label>
+    </form>
+</body>
+</html>

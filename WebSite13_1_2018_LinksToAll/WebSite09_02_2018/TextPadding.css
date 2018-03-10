@@ -1,0 +1,40 @@
+﻿.first_fifth
+{
+    font-size:16px;
+    background-color:papayawhip;
+    border-color:gainsboro;
+    border-style:dashed;
+    padding:5px;
+    
+}
+
+.second_sixth
+{
+    font-size:16pt;
+    background-color:gainsboro;
+    border-color:cornsilk;
+     border-style:dotted;
+     border-width:5px;
+     padding:5px;
+}
+
+.third_seventh
+{
+    font-size:2em;
+    background-color:cornsilk;
+    border-color:sandybrown;
+     border-style:double;
+     border-width:5px;
+     padding:5px;
+}
+
+.forth_eighth
+{
+    font-size:120%;
+    background-color:sandybrown;
+     border-color:papayawhip;
+      border-style:groove;
+      border-width:5px;
+      padding:5px;
+}
+
