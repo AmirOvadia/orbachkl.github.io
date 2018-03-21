@@ -1,0 +1,50 @@
+﻿.dialogOverlay
+{
+    display: none;
+    opacity: .8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: black;
+    width: 100%;
+    z-index: 10;
+}
+
+.dialogBox
+{
+    display: none;
+    position: fixed;
+    background: black;
+    width: 550px;
+    z-index: 10;
+}
+
+    .dialogBox > div
+    {
+        background: white;
+        margin: 8px;
+    }
+
+
+.dialogBoxHead
+{
+    background:#008bd7;
+    font-size: 19px;
+    padding: 10px;
+    color: white;
+}
+
+.dialogBoxBody
+{
+    background: #008bd7;
+    padding: 20px;
+    color: white;
+}
+
+.dialogBoxFoot
+{
+    background: #008bd7;
+    padding: 10px;
+    text-align: right;
+    color: white;
+}

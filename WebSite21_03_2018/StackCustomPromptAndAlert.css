@@ -1,0 +1,82 @@
+﻿.container
+{
+    height:500px;
+    width:400px;
+    background-color:aliceblue;
+    margin:0 auto;
+}
+.stack
+{
+    height:auto;
+    width:300px;
+    background-color:black;
+     margin:0 auto;
+    border:2px solid black;
+}
+
+.element
+{
+    height:15px;
+    width:200px;
+    background-color:lightblue;
+    border:solid 1px black;
+     margin:0 auto;
+    text-align:center;
+}
+.pushBtn,.popBtn,.topBtn
+{
+    height:20px;
+    width:50px;
+    margin:0 auto;
+    margin:5px;
+}
+.dialogOverlay
+{
+    display: none;
+    opacity: .8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: black;
+    width: 100%;
+    z-index: 10;
+}
+
+.dialogBox
+{
+    display: none;
+    position: fixed;
+    background: black;
+    width: 550px;
+    z-index: 10;
+}
+
+    .dialogBox > div
+    {
+        background: white;
+        margin: 8px;
+    }
+
+
+.dialogBoxHead
+{
+    background:#008bd7;
+    font-size: 19px;
+    padding: 10px;
+    color: white;
+}
+
+.dialogBoxBody
+{
+    background: #008bd7;
+    padding: 20px;
+    color: white;
+}
+
+.dialogBoxFoot
+{
+    background: #008bd7;
+    padding: 10px;
+    text-align: right;
+    color: white;
+}

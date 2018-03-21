@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="PromptBox.css" rel="stylesheet" />
+    <script src="PromptBox.js"></script>
+</head>
+<body>
+   <div class="dialogOverlay"></div>
+    <div class="dialogBox">
+        <div>
+            <div  class="dialogBoxHead"></div>
+            <div  class="dialogBoxBody"></div>
+            <div  class="dialogBoxFoot"></div>
+        </div>
+    </div>
+    <input type="button" class="btnDefPrompt" value="Default Prompt" onclick="prompt('please enter your name')" />
+    <input type="button" class="btnDefPrompt" value="Custom Prompt" onclick="Prompt.render('please enter your name')" />
+    <p class="Value"></p>
+
+</body>
+
+</html>

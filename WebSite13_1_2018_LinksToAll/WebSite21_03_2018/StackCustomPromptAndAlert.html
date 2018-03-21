@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="StackCustomPromptAndAlert.css" rel="stylesheet" />
+    <script src="StackCustomPromptAndAlert.js"></script>
+</head>
+<body>
+    <div class="container">
+        Stack simulator:
+        <br />
+        <br />
+        <input type="button" class="pushBtn" value="Push" onclick="Prompt.render('enter value to push to stack');" />
+        <input type="button" class="popBtn" value="Pop" onclick="Pop()" />
+        <input type="button" class="topBtn" value="Top" onclick="Top()" />
+        <br />
+        Last action:
+        <input type="text" class="txtLastCall" readonly="true" />
+        <p>Top of Stack:</p>
+
+        <div class="stack">
+        </div>
+        <div class="dialogOverlay"></div>
+        <div class="dialogBox">
+            <div>
+                <div class="dialogBoxHead"></div>
+                <div class="dialogBoxBody"></div>
+                <div class="dialogBoxFoot"></div>
+            </div>
+        </div>
+      
+       
+
+
+    </div>
+</body>
+</html>
