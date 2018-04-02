@@ -1,0 +1,86 @@
+﻿
+
+
+.sphere
+{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    animation-name: spin;
+    animation-duration: 36s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.sphere2
+{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle at 62.5px 62.5px, rgb(0,255,0) 5%, rgb(0,140,0) 15%, rgb(0,50,0) 60%);
+    animation-name: spin;
+    animation-duration: 36s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.sphere3
+{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle at 185.5px 62.5px, rgb(0,255,0) 5%, rgb(0,140,0) 15%, rgb(0,50,0) 60%);
+    animation-name: spinCounterClockwise;
+    animation-duration: 36s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+.sphere4
+{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet);
+    animation-name: spinCounterClockwise;
+    animation-duration: 36s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes spin
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinCounterClockwise
+{
+    from
+    {
+        transform: rotate(360deg);
+    }
+
+    to
+    {
+        transform: rotate(0deg);
+    }
+}

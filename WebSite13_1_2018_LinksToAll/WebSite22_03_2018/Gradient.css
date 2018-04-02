@@ -1,0 +1,116 @@
+﻿.sphere
+{
+    width:100px;
+    height:100px;
+    margin:5px;
+    float:left;
+    border-radius:50%;
+    background-image: linear-gradient(blue,green, yellow);
+   
+}
+
+.sphere2
+{
+    width:100px;
+    height:100px;
+     margin:5px;
+     float:left;
+    border-radius:50%;
+    background-image: linear-gradient(to right, red , yellow);
+}
+.sphere3
+{
+    width:100px;
+    height:100px;
+     margin:5px;
+      float:left;
+    border-radius:50%;
+    background-image: linear-gradient(-90deg, red, yellow);
+}
+
+.sphere4
+{
+    width:100px;
+    height:100px;
+     margin:5px; 
+     float:left;
+    border-radius:50%;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+.sphere5
+{
+    width:100px;
+    height:100px;
+    margin:5px;
+      float:left;
+    border-radius:50%;
+    background-image: linear-gradient(to right, rgba(0,101,215,0), rgba(0,101,215,1));
+}
+
+
+
+
+.sphere6
+{
+    width:100px;
+    height:100px;
+    margin:5px;
+     float:left;
+    border-radius:50%;
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+.sphere7
+{
+    width:100px;
+    height:100px;
+    margin:5px;
+      float:left;
+    border-radius:50%;
+    background-image: radial-gradient(red, yellow, green);
+}
+.sphere8
+{
+    width:100px;
+    height:100px;
+    margin:5px;
+     float:left;
+    border-radius:50%;
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+.sphere9
+{
+    width:100px;
+    height:100px;
+    margin:5px;
+     float:left;
+    border-radius:50%;
+    background-image:radial-gradient(circle, red, yellow, green);
+}
+.sphere10
+{
+    width:100px;
+    height:100px;
+    margin:5px;
+   float:left;
+    border-radius:50%;
+    background-image: radial-gradient(yellow 5%, purple 15%, blue 60%);
+}
+.sphere11
+{
+    width:100px;
+    height:100px;
+    margin:5px;
+
+     float:left;
+    border-radius:50%;
+    background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+.sphere12
+{
+    width:100px;
+    height:100px;
+    margin:5px;
+     float:left;
+    border-radius:50%;
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
