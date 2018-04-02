@@ -1,12 +1,18 @@
-﻿
+﻿.stage
+{
+    width:100%;
+    margin: 0 auto;
+  
+   
+}
 
 
 .sphere
 {
-    width: 250px;
-    height: 250px;
-    float: left;
-    margin: 20px;
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+    margin: 10px;
     border-radius: 50%;
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
     animation-name: spin;
@@ -17,12 +23,12 @@
 
 .sphere2
 {
-    width: 250px;
-    height: 250px;
-    float: left;
-    margin: 20px;
+       width: 200px;
+    height: 200px;
+     display:inline-block;
+   margin: 10px;
     border-radius: 50%;
-    background-image: radial-gradient(circle at 62.5px 62.5px, rgb(0,255,0) 5%, rgb(0,140,0) 15%, rgb(0,50,0) 60%);
+    background-image: radial-gradient(circle at 50px 50px, rgb(0,255,0) 5%, rgb(0,140,0) 15%, rgb(0,50,0) 60%);
     animation-name: spin;
     animation-duration: 36s;
     animation-iteration-count: infinite;
@@ -31,12 +37,12 @@
 
 .sphere3
 {
-    width: 250px;
-    height: 250px;
-    float: left;
+       width: 200px;
+    height: 200px;
+    display:inline-block;
     margin: 20px;
     border-radius: 50%;
-    background-image: radial-gradient(circle at 185.5px 62.5px, rgb(0,255,0) 5%, rgb(0,140,0) 15%, rgb(0,50,0) 60%);
+    background-image: radial-gradient(circle at 150px 50px, rgb(0,255,0) 5%, rgb(0,140,0) 15%, rgb(0,50,0) 60%);
     animation-name: spinCounterClockwise;
     animation-duration: 36s;
     animation-iteration-count: infinite;
@@ -46,10 +52,10 @@
 
 .sphere4
 {
-    width: 250px;
-    height: 250px;
-    float: left;
-    margin: 20px;
+       width: 200px;
+    height: 200px;
+   display:inline-block;
+   margin: 10px;
     border-radius: 50%;
     background-image: linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet);
     animation-name: spinCounterClockwise;
